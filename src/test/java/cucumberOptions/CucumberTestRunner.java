@@ -9,10 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 //				  dryRun = true,
                   features = "src/test/java/features",
-                  glue = {"helpers", "stepDefinitions"},
+                  glue = {"stepDefinitions"},
                   monochrome = true,
                   snippets = SnippetType.CAMELCASE,
-                  tags = {"@Karros"}
+                  tags = {"@demo"}
                 )
 public class CucumberTestRunner {
 
